@@ -1,0 +1,118 @@
+body{
+  background-color: #5b3b1a;
+}
+
+.carousel-inner{
+  width: 500px;
+  height:500px;
+}
+
+.emphasis{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#special{
+  text-decoration: underline;
+}
+
+form{
+  background-color: #2d545d;
+}
+
+.segment{
+  background-color: #2d5d3c;
+  width: 100%;
+}
+
+strong{
+  font-weight: bold;
+}
+
+footer{
+  background-color: #2d5d3c;
+  margin: 0;
+}
+
+/* ========
+CONDITIONAL CLASSES
+=========*/
+
+.success{
+  background-color: green;
+  /* padding: 1px 5px; */
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.error{
+  color: red;
+  font-style: italic;
+  background-color: lightgrey;
+  padding: 1px 5px;
+  margin-bottom: 0;
+}
+
+.jumbotron{
+background: #2d545d url('../images/pot.jpg') no-repeat;
+background-size: cover;
+color: white;
+
+}
+
+.lead{
+  /*font size 27 */ for larger
+  font-size: 18px;
+  text-shadow: -0.1px 0 black, 0 0.1px grey, 0.1px 0 lightgrey, 0 -0.1px black;
+}
+
+/* ========
+MEDIA QUERIES
+=========*/
+
+@media (max-width: 768px) {
+
+    .display-2{
+      font-size: 35px;
+      font-weight: bold;
+    }
+
+    .display-3{
+      font-size: 25px;
+    }
+
+    .display-4{
+      font-size: 20px;
+    }
+
+    .jumbotron{
+    background: #2d545d;
+  }
+
+  input{
+    margin-top: 1px;
+  }
+
+  @media (max-width: 1000px) {
+
+    .carousel-inner{
+      width: 400px;
+      height:400px;
+    }
+
+      .display-2{
+        font-size: 60px;
+        font-weight: bold;
+      }
+
+      .display-3{
+        font-size: 45px;
+      }
+
+      .display-4{
+        font-size: 20px;
+      }
+    }
