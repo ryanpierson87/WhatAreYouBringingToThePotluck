@@ -1,3 +1,7 @@
+/*==============
+Page Styles
+==============*/
+
 body{
   background-color: #5b3b1a;
 }
@@ -5,18 +9,6 @@ body{
 .carousel-inner{
   width: 500px;
   height:500px;
-}
-
-.emphasis{
-  font-style: italic;
-}
-
-.bold{
-  font-weight: bold;
-}
-
-#special{
-  text-decoration: underline;
 }
 
 form{
@@ -28,9 +20,6 @@ form{
   width: 100%;
 }
 
-strong{
-  font-weight: bold;
-}
 
 footer{
   background-color: #2d5d3c;
@@ -63,12 +52,19 @@ color: white;
 
 }
 
-.lead{
-  /*font size 27 */ for larger
-  font-size: 18px;
-  text-shadow: -0.1px 0 black, 0 0.1px grey, 0.1px 0 lightgrey, 0 -0.1px black;
-}
 
+
+/* ==========
+FONT FX|| MODAL FONTS
+========== */
+  /*=== Remove Hover ==*/
+/* .noHover{
+  pointer-events: none;
+} */
+.noHover:hover{
+  cursor:default;
+}
+  /*=====*/
 .fear{
   font-family: 'Creepster', cursive;
 }
@@ -76,6 +72,29 @@ color: white;
 .newspaper{
   font-family: courier;
 }
+
+strong{
+  font-weight: bold;
+}
+
+.lead{
+  /*font size 27 */ for larger
+  font-size: 18px;
+  text-shadow: -0.1px 0 black, 0 0.1px grey, 0.1px 0 lightgrey, 0 -0.1px black;
+}
+
+.emphasis{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#special{
+  text-decoration: underline;
+}
+
 /* ========
 MEDIA QUERIES
 =========*/
