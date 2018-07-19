@@ -69,6 +69,13 @@ color: white;
   text-shadow: -0.1px 0 black, 0 0.1px grey, 0.1px 0 lightgrey, 0 -0.1px black;
 }
 
+.fear{
+  font-family: 'Creepster', cursive;
+}
+
+.newspaper{
+  font-family: courier;
+}
 /* ========
 MEDIA QUERIES
 =========*/
