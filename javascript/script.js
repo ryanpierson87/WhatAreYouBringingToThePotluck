@@ -1,3 +1,4 @@
+sizeCheck();
 var same = $('#emailHeader').clone();
 var other= $ ('#otherHeader').clone();
 var headClone = $("#head").clone();
@@ -6,7 +7,6 @@ var name_check = false;
 var email_check = false;
 var food_check = false;
 $('#other').hide();
-sizeCheck();
 formCheck();
 
 //Reveals a text input when "Other is selected
