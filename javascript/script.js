@@ -5,8 +5,9 @@ var nameHeader = $('#nameHeader').clone();
 var name_check = false;
 var email_check = false;
 var food_check = false;
-
 $('#other').hide();
+formCheck();
+console.log("Site Load");
 
 //Reveals a text input when "Other is selected
 $('#drop').change(function(){
@@ -85,14 +86,16 @@ $('#other_input').change(function(){
 $().change(function()
 {})
 
-
 //submit validation
 function formCheck(){
   console.log("formCheck ran")
   if(name_check === true && email_check === true && food_check === true){
-    $('#submit').removeClass('disabled');
+    $('#submit').removeClass('disabled').
+    prop('disabled', false);
   } else{
-    $('#submit').addClass('disabled');
+    $('#submit').addClass('disabled')
+      .prop('disabled', true);
+      console.log("ran");
   }
 }
 
