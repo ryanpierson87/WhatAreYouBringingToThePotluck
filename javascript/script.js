@@ -46,7 +46,10 @@ $('#email').change(function(){
   if(field.length < 1){
     $("#emailHeader").html(same);
     email_check = false;
-    formCheck();}else if ((field.indexOf("@") === -1) || !(field.indexOf(".") > field.indexOf("@")) ){
+    $('#emailHeader').removeClass('success').
+    removeClass('error');
+    formCheck();}
+    else if ((field.indexOf("@") === -1) || !(field.indexOf(".") > field.indexOf("@")) ){
     $('#emailHeader').html('<label class="error px=1" for="email" id="emailHeader">Your Email appears to be invalid</label>');
     email_check = false;
     formCheck();
